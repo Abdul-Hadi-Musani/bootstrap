@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .abc{background-color: aquamarine;width: 50vw;
+    height: 50vh;
+    border: 2px soild black ;}
+    .animation{background-color: darkgoldenrod;
+    width: 40px;
+height: 100px;
+border: 4px soild black;
+border-radius: 100px;
+animation-name: flex;
+animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+animation-delay: 3s;
+animation-duration: 10s;
+position: relative;
+}
+ @keyframes flex {
+    0%{background-color: aqua ; left: 0px;top: 10px;}
+    25%{background-color: blueviolet;left: 200px; top: 0px;}
+    50%{background-color: darkmagenta;left: 200px ;top: 200px ;}
+    75%{background-color: forestgreen;left: 0px ;top: 300px;}
+    100%{background-color: goldenrod;left: 0px ;top: 0px;}
+ } 
+</style>
+<body>
+    <div class="abc">
+        <div class="animation"></div>
+    </div>
+</body>
+</html>
